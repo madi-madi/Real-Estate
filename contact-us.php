@@ -37,7 +37,7 @@ get_header();
 //php mailer variables
   $to = 'shoppingt277@gmail.com';//get_option('admin_email');
   $subject = "3karatcom";
-  $headers = array('From: My 3karatcom <shoppingt277@gmail.com>');
+  $headers = array("From: My 3karatcom <$email>");
 
 /*
    'From: '. get_option('admin_email') . "\r\n" .
